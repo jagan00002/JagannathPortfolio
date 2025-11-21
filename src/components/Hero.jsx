@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import Typewriter from './Typewriter'
 
 
 
@@ -14,7 +13,7 @@ export default function Hero(){
 
       <div className="hero-inner">
         <motion.img
-          src="/images/hero3.jpg"
+          src="/JaganPortfolio/images/hero3.jpg" 
           alt="Jagan"
           className="hero-photo"
           initial={{ scale: 0.8, opacity: 0 }}
